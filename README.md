@@ -172,11 +172,11 @@ Now in your client/package.json file, add the following line under:
 
 The final piece is to just copy the following files from [github](https://github.com/tobyond/react_tutorial_with_rails_api):
 
-client/src/Comment.js
-client/src/CommentBox.js
-client/src/CommentForm.js
-client/src/CommentList.js
-client/src.index.js
+* client/src/Comment.js
+* client/src/CommentBox.js
+* client/src/CommentForm.js
+* client/src/CommentList.js
+* client/src.index.js
 
 Now, from the react_tutorial_with_rails_api directory you can run:
 
