@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'comments/index'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  scope '/api' do
+    get :comments, to: 'comments#index'
+    post :comments, to: 'comments#create'
+  end
 end
