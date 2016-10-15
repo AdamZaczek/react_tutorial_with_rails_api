@@ -1,6 +1,6 @@
 #React Tutorial with create-react-app and Rails as an Api and Bootstrap
 
-Man, that title is a mouthful, but, this is pretty easy. Once again, we're focussing on the (React tutorial)[https://facebook.github.io/react/docs/tutorial.html]. Since it's a great intro to React.
+Man, that title is a mouthful, but, this is pretty easy. Once again, we're focussing on the [React tutorial](https://facebook.github.io/react/docs/tutorial.html). Since it's a great intro to React.
 
 First, ensure you have the Create React App installed globally:
 
@@ -112,7 +112,7 @@ Rails.application.routes.draw do
 end
 ```
 
-We'll now create a rake task to spin up both React Server and Rails server simultaneously. A lot of steps here, but it's all to prevent something called (Cross-origin resource sharing.)[https://en.wikipedia.org/wiki/Cross-origin_resource_sharing]
+We'll now create a rake task to spin up both React Server and Rails server simultaneously. A lot of steps here, but it's all to prevent something called [Cross-origin resource sharing.](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
 
 ```text
 echo "gem 'foreman'" >> Gemfile
@@ -130,7 +130,7 @@ task :start do
 end
 ```
 
-Oh, now for the React part. There will be just copy and pasting of the code, since the (tutorial)[https://facebook.github.io/react/docs/tutorial.html] walks you through it pretty succinctly. 
+Oh, now for the React part. There will be just copy and pasting of the code, since the [tutorial](https://facebook.github.io/react/docs/tutorial.html) walks you through it pretty succinctly. 
 
 ```text
 cd client
@@ -170,7 +170,7 @@ Now in your client/package.json file, add the following line under:
 "proxy": "http://localhost:3001/"
 ```
 
-The final piece is to just copy the following files from (github)[https://github.com/tobyond/react_tutorial_with_rails_api]:
+The final piece is to just copy the following files from [github](https://github.com/tobyond/react_tutorial_with_rails_api):
 
 client/src/Comment.js
 client/src/CommentBox.js
